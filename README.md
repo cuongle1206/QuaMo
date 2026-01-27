@@ -39,7 +39,7 @@ python main_sport.py --seed 0
 
 ## Visualization
 Some qualitative examples from QuaMo can be found here:
-<a href="https://cuongle1206.github.io/QuaMo/visualizations\index.html" target="_blank">View Live Demo</a>
+<a href="https://cuongle1206.github.io/QuaMo/visualizations/index.html" target="_blank">View Live Demo</a>
 
 ## Citation
 If you find our project helpful, please cite the paper as
