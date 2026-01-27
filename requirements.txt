@@ -1,0 +1,13 @@
+numpy==1.23.5
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+torchaudio==2.2.2+cu121
+smplx[all]
+chumpy==0.70
+h5py==3.11.0
+alive-progress
+tqdm
+prettytable
+wandb
+--find-links https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py38_cu113_pyt1110/download.html
+pytorch3d==0.7.2

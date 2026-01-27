@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuaMo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* center the page */
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.5em;
+        font-weight: normal;
+        background: #fff;
+        color: black;
+    }
+
+    .content {
+        max-width: 1200px; /* keep it centered, not too wide */
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* two columns */
+        gap: 30px; /* space between columns */
+        margin-top: 30px;
+    }
+
+    .content h1 {
+        font-size: 1.8em;
+        grid-column: 1 / -1; /* span all columns */
+        text-align: center;  /* optional: center the text */
+        margin-bottom: 15px;
+    }
+
+    .content h3 {
+        grid-column: 1 / -1; /* span all columns */
+        text-align: center;  /* optional: center the text */
+        margin-bottom: 15px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* space between videos/text inside column */
+    }
+
+    video {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .left-align {
+        text-align: left;
+    }
+
+    .half-width {
+        width: 65%;
+        margin: 0 auto; /* centers it */
+    }
+
+  </style>
+  
+</head>
+
+<body>
+    <!-- TITLE ACROSS TOP -->
+    <header>
+        QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture
+    </header>
+    <div class="row">
+        <div class="text-center">
+            Accepted to ICLR 2026, <a href="https://openreview.net/forum?id=em0jPLYjaS" target="_blank">OpenReview</a>.
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center">
+            In this page, we present additional qualitative results of QuaMo on the four datasets presented in the main paper.
+        </div>
+    </div>
+
+    <!-- Human3.6M -->
+    <div class="content">
+        <h3><a href="http://vision.imar.ro/human3.6m/description.php" target="_blank">Human3.6M</a></h3> 
+        <div class="column">
+            <video autoplay loop muted controls>
+                <source src="videos/h36m_S9_Walking-2_60457274.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted controls>
+                <source src="videos/h36m_S11_WalkingDog-2_60457274.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="column">
+            <video autoplay loop muted controls>
+                <source src="videos/h36m_S9_Discussion-2_58860488.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted controls>
+                <source src="videos/h36m_S11_Directions-1_55011271.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- Fit3D -->
+    <div class="content">
+        <h3><a href="https://fit3d.imar.ro/" target="_blank">Fit3D</a></h3></h3>
+        <div class="column">
+            <video autoplay loop muted controls>
+                <source src="videos/fit3d_s09_walk_the_box_60457274.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="column">
+            <video autoplay loop muted controls>
+                <source src="videos/fit3d_s11_warmup_2_60457274.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- SportsPose -->
+    <div class="content">
+        <h3><a href="https://christianingwersen.github.io/SportsPose/" target="_blank">SportsPose</a></h3>
+        <div class="column">
+            <video autoplay loop muted controls>
+                <source src="videos/sport_S13_soccer0010_uniform.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted controls>
+                <source src="videos/sport_S12_tennis0020_uniform.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="column">
+            <video autoplay loop muted controls>
+                <source src="videos/sport_S14_throw_baseball0005_uniform.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted controls>
+                <source src="videos/sport_S13_jump0001_uniform.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- AIST -->
+    <div class="content">
+        <h3><a href="https://google.github.io/aistplusplus_dataset/factsfigures.html" target="_blank">AIST</a></h3>
+        <div class="column">
+            <video autoplay loop muted controls>
+                <source src="videos/aist_dance_gMH_sBM_c01_d24_mMH3_ch02_0.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="column">
+            <video autoplay loop muted controls>
+                <source src="videos/aist_dance_gLH_sBM_c04_d18_mLH5_ch07_3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    
+    <!-- AIST -->
+    <div class="content">
+        <h3>Different joint representations</h3>
+        <div class="column">
+            <video autoplay loop muted controls class="half-width">
+                <source src="videos/quaternion.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted controls class="half-width">
+                <source src="videos/axis.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="column">
+            <video autoplay loop muted controls class="half-width">
+                <source src="videos/XYZ.mp4" type="video/mp4">
+            </video>
+            <video autoplay loop muted controls class="half-width">
+                <source src="videos/ZXY.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="row">
+        <h3>Thank you for your attention!</h3>
+    </div>
+
+</body>
+</html>
