@@ -4,7 +4,7 @@ Official implementation of QuaMo.
 [![Paper](https://img.shields.io/badge/arXiv-####-####-red)]() [![OpenReview](https://img.shields.io/badge/OpenReview-ICLR_2026-blue?logo=openreview)](https://openreview.net/forum?id=em0jPLYjaS)
 
 <div align="center">
-<img src="figures/teaser.png" width="1200" alt="logo"/>
+<img src="figures/Teaser.png" width="1200" alt="logo"/>
 </div>
 
 
