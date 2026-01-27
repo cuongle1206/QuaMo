@@ -1,6 +1,12 @@
 # QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture
 Official implementation of QuaMo.
 
+[![Paper](https://img.shields.io/badge/arXiv-####-####-red)]() [![OpenReview](https://img.shields.io/badge/OpenReview-ICLR_2026-blue?logo=openreview)](https://openreview.net/forum?id=em0jPLYjaS)
+
+<div align="center">
+<img src="figures/teaser.png" width="1200" alt="logo"/>
+</div>
+
 
 ## Installation
 Clone the repository and create a fresh Conda environment with recommended dependencies as follow:
