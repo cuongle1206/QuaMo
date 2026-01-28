@@ -23,7 +23,7 @@ def pad_to_nearest_multiple(arr, multiple=100, pad_value=0):
 
 
 def create_dataset_h36m(args, project_path):
-    dataset_path = "/mimer/NOBACKUP/groups/alvis_cvl/cuole/datasets/h36m"
+    dataset_path = "./datasets/h36m"
     if args.exp == 'ablation': save_path = os.path.join(project_path, "database", "h36m", f"{args.exp}_{args.input}")
     else: save_path = os.path.join(project_path, "database", "h36m", args.input)
     os.makedirs(save_path, exist_ok=True)
@@ -129,7 +129,7 @@ def create_dataset_h36m(args, project_path):
     
     
 def create_dataset_fit3d(args, project_path):
-    dataset_path = "/mimer/NOBACKUP/groups/alvis_cvl/cuole/datasets/fit3d"
+    dataset_path = "./datasets/fit3d"
     if args.exp == 'ablation': save_path = os.path.join(project_path, "database", "fit3d", f"{args.exp}_{args.input}")
     else: save_path = os.path.join(project_path, "database", "fit3d", args.input)
     os.makedirs(save_path, exist_ok=True)
@@ -242,7 +242,7 @@ def create_dataset_fit3d(args, project_path):
 
 
 def create_dataset_sport(args, project_path):
-    dataset_path = "/mimer/NOBACKUP/groups/alvis_cvl/cuole/datasets/SportsPose"
+    dataset_path = "./datasets/SportsPose"
     if args.exp == 'ablation': save_path = os.path.join(project_path, "database", "sport", f"{args.exp}_{args.input}")
     else: save_path = os.path.join(project_path, "database", "sport", args.input)
     os.makedirs(save_path, exist_ok=True)
@@ -328,7 +328,7 @@ def create_dataset_sport(args, project_path):
                 #             [p3d_gt_f[parent[k]-1,1], p3d_gt_f[child[k]-1,1]], 
                 #             [p3d_gt_f[parent[k]-1,2], p3d_gt_f[child[k]-1,2]],
                 #             color='lime', linestyle='-', linewidth=3)
-                # base_path       = "/mimer/NOBACKUP/groups/alvis_cvl/cuole/datasets/SportsPose/extracted"
+                # base_path       = "./datasets/SportsPose/extracted"
                 # real_index      = 50
                 # img_path        = os.path.join(base_path, subject, f"CAM3_video_12", f"frame_{real_index:06d}.jpg")
                 # img             = plt.imread(img_path)
@@ -408,7 +408,7 @@ def create_dataset_sport(args, project_path):
 
 
 def create_dataset_aist(args, project_path):
-    dataset_path = "/mimer/NOBACKUP/groups/alvis_cvl/cuole/datasets/aist"
+    dataset_path = "./datasets/aist"
     if args.exp == 'ablation': save_path = os.path.join(project_path, "database", "aist", f"{args.exp}_{args.input}")
     else: save_path = os.path.join(project_path, "database", "aist", args.input)
     os.makedirs(save_path, exist_ok=True)

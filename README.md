@@ -1,7 +1,7 @@
 # QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture
 Official implementation of QuaMo.
 
-[![Paper](https://img.shields.io/badge/arXiv-####-####-red)]() [![OpenReview](https://img.shields.io/badge/OpenReview-ICLR_2026-blue?logo=openreview)](https://openreview.net/forum?id=em0jPLYjaS)
+[![Paper](https://img.shields.io/badge/arXiv-2601.19580-red)](https://arxiv.org/abs/2601.19580) [![OpenReview](https://img.shields.io/badge/OpenReview-ICLR_2026-blue?logo=openreview)](https://openreview.net/forum?id=em0jPLYjaS) [![Live Demo](https://img.shields.io/badge/demo-online-green?style=flat-square)](https://cuongle1206.github.io/QuaMo/visualizations/index.html)
 
 <div align="center">
 <img src="figures/Teaser.png" width="1200" alt="logo"/>
