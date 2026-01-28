@@ -19,7 +19,7 @@ conda activate quamo
 pip install -r requirements.txt
 ```
 
-Download the [project](https://liuonline-my.sharepoint.com/:u:/g/personal/cuole74_liu_se/IQBMsb7AFpPiR6DpFjW5s5C9AZFa58VhNhQf_LMFe2QrxJc?e=lRPFrI) folder and extract it to the repo. All pre-processed data and trained models are included.
+Download the project folder either from [Zenodo](https://zenodo.org/records/18402382?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjJlZmY3YmI2LTBjNmUtNGM2Mi04ZWU5LTEzMzBlNTZlOWY1OSIsImRhdGEiOnt9LCJyYW5kb20iOiJlNTM5NGFlZWY3NGUxNDYyM2ZkM2I5YjlmN2RjOTBlNiJ9.IZkYx7TVkwqfVBhbEKn9iHgui-PfV_RYST_zsFaE2kvgPgK5jq84fdCT94kD-b431RmWCinUEvDs0OGv6yFeZA) or [OneDrive](https://liuonline-my.sharepoint.com/:u:/g/personal/cuole74_liu_se/IQBMsb7AFpPiR6DpFjW5s5C9AZFa58VhNhQf_LMFe2QrxJc?e=lRPFrI), and extract it to the repo. All pre-processed data and trained models are included.
 
 ## Experiments
 Each network is trained with seed 0-5, you can choose any. For training, you could set the flag ```--train``` to each experiment.
