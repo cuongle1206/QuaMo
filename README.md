@@ -50,7 +50,7 @@ Some qualitative examples from QuaMo can be found here:
 ## Citation
 If you find our project helpful, please cite the paper as
 ```bibtex
-@inproceedings{le2024_osdcap,
+@inproceedings{le2026_quamo,
   title     = {QuaMo: Quaternion Motions for Vision-based 3D Human Kinematics Capture},
   author    = {Le, Cuong and Melnyk, Pavlo and Waldmann, Urs and Wadenbäck, Mårten and Wandt, Bastian},
   booktitle = {International Conference on Learning Representations},
